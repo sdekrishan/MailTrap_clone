@@ -5,16 +5,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mailtrap signin</title>
+    <link rel="stylesheet" href="./logincss.css">
 </head>
 <body>
     <div id="navbar">
         <img src="https://mailtrap.io/wp-content/uploads/2021/04/mailtrap-new-logo.svg" alt="">
-        <div id="navbarp">
-            <p>Email Testing</p>
+        
+        
         <div id="navbtn">
             <button id="login">Login</button>
             <button id="signup">Sign Up</button>
         </div>
     </div>
+
+    <div id="loginbox">
+        <div id="leftbox">
+            <p>Log In</p>
+            <button class="logbtn"><img src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/google-512.png" alt="">Use Google Account</button>
+            <button class="logbtn"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="">Use Github Account</button>
+            <button class="logbtn"><img src="https://cdn.iconscout.com/icon/free/png-256/microsoft-office-2-761689.png" alt="">Use Office 365 Account</button>
+            
+            <p>OR</p>
+            <label for="">Email</label>
+            <input type="email" id="email">
+            <label for="">Password</label>
+            <input type="password" id="password">
+            <button id="next">Next</button>
+            <p>Haven't received the confirmation email yet?</p>
+            <a href="">Resend the email</a>
+        </div>
+        <div id="rightbox">
+        <img src="https://assets.mailtrap.io/packs/assets/landing/login-fb2fcb15feb36d8e9356.svg" alt="">
+
+        <p>Mailtrap is great for testing of email notifications that are scheduled to go to many users.</p>
+    </div>
+    </div>
+
+    <footer>
+        <div id="footer">
+          <div>
+            <div id="chokor">
+              Crafted By
+              <img src="https://flyclipart.com/thumb2/cool-designs-clipart-kid-663090.png" alt="">
+              <span>  railsware</span>
+            </div>
+          </div>
+          <div><h3>Mailtrap</h3>
+          <p>Pricing</p>
+          <p>Changelog</p>
+          <p>Status</p>
+          <p>Terms of Service</p>
+          <p>Privacy Policy</p>
+          <p>Navigational Information</p>
+          <p>DPA</p></div>
+          <div>
+            <h3>Railsware Experience</h3>
+          <p>Mailtrap Blog</p>
+          <p>Coupler.io</p>
+          <p>Smart Checklist for Jira</p>
+          <p>Careers-Railsware Hiring</p>
+          </div>
+          <div>
+            <h3>Contact</h3>
+            <p>email:support@mailtrap.io</p>
+            <div id="socialmedia">
+              <img src="https://i0.wp.com/whitelight.online/wp-content/uploads/2020/11/icon-fb.png.png?ssl=1" alt="">
+              <img src="https://pngimg.com/uploads/twitter/twitter_PNG2.png" alt="">
+              <img src="https://cutewallpaper.org/24/linkedin-png-icon/circle-linkedin-icon-free-download-on-iconfinder.png" alt="">
+            </div>
+            <p>© Railsware Products Studio, Inc.</p>
+          </div>
+        </div>
+      </footer>
 </body>
+<script src="./login.js"></script>
 </html>

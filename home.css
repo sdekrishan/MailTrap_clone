@@ -4,7 +4,7 @@ body{
 }
 #main{
     width: 100%;
-    position: sticky;
+    position: fixed;
     top:0px;
 }
 #upnavbar{
@@ -12,8 +12,10 @@ body{
     color:white;
     width:100%;
     height:60px;
-    padding-top:8px;
+    display: flex;
+    justify-content: center;
     text-align: center;
+    align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-weight:500;
@@ -63,7 +65,7 @@ body{
 
 }
 #navbtn>button:nth-child(2){
-    background-color:#45E890;
+    background-color:#22D172;
     color:white;
     font-weight: bolder;
 }
@@ -72,7 +74,7 @@ body{
 
 #emailsandbox{
     width:60%;
-   margin:0 auto;
+   margin:220px auto 0 auto;
    text-align: center;
    color:#202C45;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -97,9 +99,9 @@ body{
 }
 
 #sandboxbtn{
-    margin-top:40px ;
+    margin-top:20px ;
     padding:15px 20px;
-    background-color: #45E890;
+    background-color: #22D172;
     border:0px;
     border-radius: 10px;
     color:white;
@@ -107,12 +109,14 @@ body{
  
 }
 #emailsandbox>#icons{
-    margin:10% auto; 
+    height:25px;
+    width:90%;
+    margin:7% auto; 
     display: flex;
     justify-content: space-between;
 }
 #vdobox{
-    width:65%;
+    width:75%;
     
     margin: auto;
     
@@ -122,12 +126,7 @@ body{
     
     width: 100%;
 }
-#vdobox>i{
-  
-    top:50px;
-    left:50px;
-    width:10%;
-}
+
 #testing{
     width:auto;
     margin:80px auto;
@@ -162,7 +161,7 @@ body{
 .gridpara>p:nth-child(1){
     color:#1A2E44;
    font-size: 18px;
-   font-weight: 500;
+   font-weight: 650;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    
    margin:17px 14% 20px 2%;
@@ -173,7 +172,175 @@ body{
     color:#1A2E44;
    font-size: 14px;
    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-   
+   text-align: justify;
    margin:0 8% 0 2%;
    /* text-align: center; */
 }
+.art{
+    width:40px;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-weight: bold;
+    background-color: #22D172;
+    border-radius:50%;
+}
+#setuptakes{
+    width:77%;
+    margin:auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#1A2E44;
+
+}
+#setuptakes>h1,p{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#subsetup{
+    display: grid;
+    margin-top:20px;
+    grid-template-columns: repeat(2,50%);
+
+}
+#artandp{
+    margin-top:10px;
+}
+#subsetup>img{
+    width:100%;
+}
+.subart{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height:auto;
+}
+.subart>div{
+    margin-left: 5px;
+}
+.subart>p{
+ font-size: 18px;
+ font-weight: 700;
+ text-align: justify;
+ margin-left:20px;
+}
+#howteamuse{
+    width:80%;
+    margin:100px auto;
+}
+#howteamuse>h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#1A2E44;
+    margin:0 33%;
+}
+#howteamuse>img{
+    margin-top:60px;
+    width:100%;
+}
+#tableofthree{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 6%;
+}
+
+.subtable>h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#1A2E44;
+    font-weight: 550;
+    margin-left:8px
+}
+#tableofthree>div>ul{
+    margin-left:-20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#1A2E44;
+    font-size: 15px;
+    list-style: none;
+}
+#tableofthree>div>ul li::before{
+    content: "\2022";
+    color:#22D172;
+    font-size:1.8rem;
+    font-weight: bold;
+    margin-left:-1rem;
+    margin-right: 10px;
+}
+li{
+    margin-bottom: 20px;
+}
+#tablebtn{
+    padding:15px 25px;
+    border-radius: 10px;
+    border:.5px solid black;
+    background-color: #22D172;
+    color: white;
+    border:0px;
+    font-weight: bold;
+    margin:6% 41%;    
+}
+
+#chokor{
+    height:100px;
+    width:100px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:20px 0px 0 40px;
+}
+#chokor:hover{
+    border:2px solid #22D172;
+}
+#chokor>span{
+    font-family:fantasy;
+}
+#chokor>img{
+    width:100%;
+}
+#socialmedia{
+    width:150px;
+    height: 40px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#socialmedia>img{
+    width:20%;
+    opacity: .8;
+}
+#socialmedia+p{
+    margin-top:60%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#1A2E44;
+}
+#footer{
+    width:100%;
+    
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    
+}
+#footer>div>h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#1A2E44;
+    text-align: justify;
+}
+
+#footer>div>p{
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+

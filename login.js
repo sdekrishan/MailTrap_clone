@@ -32,18 +32,13 @@ function result(){
 
 }
 }
-// function result(){
-//     let count=0;
-//     for(let x=0;x<signuparr.length;x++){
-//         if(document.querySelector("#email").value==signuparr[x].email && document.querySelector("#password").value==signuparr[x].password){
-//             count++;
-//         }
-    
-//     }
-//     if(count>0){
-//         return true;
-//     }
-//     else{
-//         return false;
-//     }
-// }
+
+document.querySelector("#navbar>img").addEventListener("click",function (){
+    window.location.href="home.html"
+})
+
+
+document.querySelector("#chokor").addEventListener("click",function(){
+    window.location.href="https://railsware.com/"
+})
+

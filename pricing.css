@@ -1,0 +1,205 @@
+body {
+    background-color: white;
+  }
+  #main {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+ 
+  }
+  #upnavbar {
+    background-color: rgb(26, 46, 68);
+    color: white;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  #upnavbar span {
+    text-decoration: underline;
+  }
+  #navbar {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    color: #243f5c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    align-items: center;
+    background-color: white;
+  }
+  
+  #navbtn {
+    height: 35px;
+    width: 20%;
+    padding: 8px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #navbar > img {
+    margin-left: 40px;
+  }
+  
+  #navbar>img:hover,#navbtn>button:hover{
+      opacity:.8;
+      transition: .9s;
+  }
+  #navbarp>a:link{
+      color:#202C45;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
+  #navbarp>a:visited{
+      color:#202C45;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
+  #navbarp>a:hover{
+      opacity: .8;
+  }
+  #navbarp {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 3% 0px 25%;
+    color: #1a2e44;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  #navbtn > button {
+    padding: 0 20px;
+    border-radius: 10px;
+    border: 0px;
+  }
+  #navbtn > button:nth-child(1) {
+    border: 0.5px solid black;
+    background-color: white;
+  }
+  #navbtn > button:nth-child(2) {
+    background-color: #22d172;
+    color: white;
+    font-weight: bolder;
+  }
+
+
+
+
+  #Chooseplan{
+    width:100%;
+    margin:220px auto;
+    color: #202c45;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    border:1px solid black;
+
+  }
+
+  #plantable{
+    width:95%;
+    margin:auto;
+    border:1px solid black;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: 100px;
+    height:450px;
+    text-align: center;
+  }
+  #plantable>div{
+    border:1px solid black;
+    margin:10px 0px;
+    height:400px;
+  }
+.attach{
+    width:70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+  #plantable>div:nth-child(4){
+    height:450px;
+    margin-top: -9%;    
+  }
+
+  #fourthdiv{
+    border:1px solid #22d172;
+    border-radius: 5px;
+  }
+  /* css for footer section */
+#recom>h4{
+    margin-top:0px;
+    font-weight: 400;
+    font-size: 14px;
+}
+#recom{
+    width:60%;
+    margin: auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #22d172;
+    color: white;
+}
+
+#chokor {
+    height: 100px;
+    width: 100px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 0 40px;
+  }
+  #chokor:hover {
+    border: 1px solid #22d172;
+  }
+  #chokor > span {
+    font-family: fantasy;
+  }
+  #chokor > img {
+    width: 100%;
+  }
+  #socialmedia {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #socialmedia > img {
+    width: 20%;
+    opacity: 0.8;
+  }
+  
+  #socialmedia + p {
+    margin-top: 60%;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #1a2e44;
+  }
+  #footer {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+  }
+  #footer > div > h3 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #1a2e44;
+    text-align: justify;
+  }
+  
+  #footer > div > p {
+    font-size: 14px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+  }

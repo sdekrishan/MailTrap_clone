@@ -39,6 +39,14 @@
     color:white;
     font-weight: bolder;
 }
+#navbtn>button:nth-child(1):hover{
+    background-color: #243F5C;
+    color:white;
+    transition: .9s;
+}
+#signup:hover{
+    opacity: .7;
+}
 #loginbox{
     width:80%;
     
@@ -113,6 +121,12 @@
 
 }
 
+#leftbox>input:hover{
+    border:1px solid blue;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
 #leftbox>input+button{
   
     margin-left:0px;
@@ -172,11 +186,9 @@
     width:150px;
     height: 40px;
     display: flex;
-    
     justify-content: center;
     align-items: center;
     justify-content: space-between;
-    border:1px solid black;
 }
 #socialmedia>img{
     width:20%;
@@ -189,20 +201,58 @@
 }
 #footer{
     width:100%;
-    border:1px solid black;
+    margin:auto;
+    background-color: #F9F9F7;
+}
+#subfooter{
+    width:100%;
     margin:auto;
     display:grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: auto;
-    
+    background-color: #F9F9F7;
 }
-#footer>div>h3{
+#subfooter>div>h3{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:#1A2E44;
     text-align: justify;
 }
-#footer>div>p{
+#subfooter>div>p{
     font-size: 14px;
+    color:#1A2E44;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#paragraph{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color:#1A2E44;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;    
+}
+#railswaremail{
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height:120px;
+}
+#railswaremail>p{
+    margin-top:65%;
+}
+#whatismail{
+    width:80%;
+    color:#1A2E44;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin-left:6%;
+    margin-top:5%;
+}
+#whatismail>h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:#1A2E44;
     text-align: justify;
 }

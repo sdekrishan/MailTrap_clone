@@ -25,3 +25,12 @@ document.querySelector("#submitbtn").addEventListener("click",function(){
 document.querySelector("#login").addEventListener("click",function (){
     window.location.href="loginpage.html"
 })
+
+document.querySelector("#navbar>img").addEventListener("click",function (){
+    window.location.href="home.html"
+})
+
+
+document.querySelector("#chokor").addEventListener("click",function(){
+    window.location.href="https://railsware.com/"
+})

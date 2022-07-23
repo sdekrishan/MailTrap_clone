@@ -11,6 +11,7 @@
     margin: auto;
     position: fixed;
     top: 0px;
+    left:0px;
 }
 #navbar>img{
     margin-left: 50px; 
@@ -256,3 +257,14 @@
     color:#1A2E44;
     text-align: justify;
 }
+#subfooter > div > p:hover{
+    color:#22d172
+   }
+
+   #subfooter>div:last-child>p:hover{
+    font-size: 14px;
+    color:#1A2E44;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+   }

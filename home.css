@@ -7,6 +7,7 @@ body {
   width: 100%;
   position: fixed;
   top: 0px;
+  left:0px;
   z-index: 1;
 }
 #upnavbar {
@@ -48,9 +49,13 @@ body {
   margin-left: 40px;
 }
 
-#navbar>img:hover,#navbtn>button:hover{
+#navbar>img:hover{
     opacity:.8;
     transition: .9s;
+}
+#navbtn>button:hover{
+  opacity:.7;
+
 }
 #navbarp>a:link{
     color:#202C45;
@@ -321,6 +326,7 @@ li {
   width: 100%;
   margin: auto;
   position: relative;
+  
 }
 #fromourclient > h1 {
   font-size: 35px;
@@ -366,6 +372,7 @@ li {
 #fromourclient > button:nth-child(3) {
   left: 5%;
 }
+
 .crouh3 {
   width: 67%;
   display: flex;
@@ -477,7 +484,7 @@ li {
 #lastdiv {
   width: 100%;
   background-color: #1a2e44;
-  margin: 3% auto;
+  margin:3% 0px;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -582,3 +589,9 @@ li {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
   }
+
+
+  #footer > div > p:hover{
+    color:#22d172;
+   }
+  
